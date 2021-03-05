@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/vintvgx/KareemSaygbe.com.git/static/css/main.fa8cbf97.chunk.css",
+    "main.js": "/vintvgx/KareemSaygbe.com.git/static/js/main.52b4cfdf.chunk.js",
+    "main.js.map": "/vintvgx/KareemSaygbe.com.git/static/js/main.52b4cfdf.chunk.js.map",
+    "runtime-main.js": "/vintvgx/KareemSaygbe.com.git/static/js/runtime-main.625ebe98.js",
+    "runtime-main.js.map": "/vintvgx/KareemSaygbe.com.git/static/js/runtime-main.625ebe98.js.map",
+    "static/css/2.658248ec.chunk.css": "/vintvgx/KareemSaygbe.com.git/static/css/2.658248ec.chunk.css",
+    "static/js/2.efa7105c.chunk.js": "/vintvgx/KareemSaygbe.com.git/static/js/2.efa7105c.chunk.js",
+    "static/js/2.efa7105c.chunk.js.map": "/vintvgx/KareemSaygbe.com.git/static/js/2.efa7105c.chunk.js.map",
+    "static/js/3.632ec144.chunk.js": "/vintvgx/KareemSaygbe.com.git/static/js/3.632ec144.chunk.js",
+    "static/js/3.632ec144.chunk.js.map": "/vintvgx/KareemSaygbe.com.git/static/js/3.632ec144.chunk.js.map",
+    "index.html": "/vintvgx/KareemSaygbe.com.git/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/vintvgx/KareemSaygbe.com.git/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.fa8cbf97.chunk.css.map": "/vintvgx/KareemSaygbe.com.git/static/css/main.fa8cbf97.chunk.css.map",
+    "static/js/2.efa7105c.chunk.js.LICENSE.txt": "/vintvgx/KareemSaygbe.com.git/static/js/2.efa7105c.chunk.js.LICENSE.txt",
+    "static/media/Adobe.c981309b.png": "/vintvgx/KareemSaygbe.com.git/static/media/Adobe.c981309b.png",
+    "static/media/CSS.585ef422.png": "/vintvgx/KareemSaygbe.com.git/static/media/CSS.585ef422.png",
+    "static/media/Iphone13Launch.da0383d4.png": "/vintvgx/KareemSaygbe.com.git/static/media/Iphone13Launch.da0383d4.png",
+    "static/media/JS.ba0a9285.png": "/vintvgx/KareemSaygbe.com.git/static/media/JS.ba0a9285.png",
+    "static/media/Node.e71346fe.png": "/vintvgx/KareemSaygbe.com.git/static/media/Node.e71346fe.png",
+    "static/media/Portfolio.e9a1881f.png": "/vintvgx/KareemSaygbe.com.git/static/media/Portfolio.e9a1881f.png",
+    "static/media/Swift.bbe4b191.png": "/vintvgx/KareemSaygbe.com.git/static/media/Swift.bbe4b191.png",
+    "static/media/comptia.ccf2428f.png": "/vintvgx/KareemSaygbe.com.git/static/media/comptia.ccf2428f.png",
+    "static/media/deskArea1.24bd3778.jpg": "/vintvgx/KareemSaygbe.com.git/static/media/deskArea1.24bd3778.jpg",
+    "static/media/imageSelf.14ec1946.jpg": "/vintvgx/KareemSaygbe.com.git/static/media/imageSelf.14ec1946.jpg",
+    "static/media/java.5d5cffa0.png": "/vintvgx/KareemSaygbe.com.git/static/media/java.5d5cffa0.png",
+    "static/media/logo.6ce24c58.svg": "/vintvgx/KareemSaygbe.com.git/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.625ebe98.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.efa7105c.chunk.js",
+    "static/css/main.fa8cbf97.chunk.css",
+    "static/js/main.52b4cfdf.chunk.js"
+  ]
+}
