@@ -12,9 +12,9 @@ import FadeInAnimation from "./FadeAnimation";
 function App() {
   return (
     <div className="App">
-      <FadeInAnimation delay={2} direction="down">
+      
         <Nav />
-        </FadeInAnimation>
+        
       <Links />
       <FadeInAnimation delay={1}>
           <HomePage />

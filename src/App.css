@@ -43,7 +43,9 @@ a {
   filter:(opacity=50);  
 }
 
-
+.logo {
+  width: 18%;
+}
 
 #GPS a {
   color: white;

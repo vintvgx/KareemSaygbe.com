@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from './pics/K192.png';
 
 function Nav () {
     return (
@@ -6,7 +7,7 @@ function Nav () {
       <div class="container barNav">
         <ul className="nav nav-pills mx-auto">
           <a className="navbar-brand" href="#S2">
-            Kareem
+          <img className="logo" src={Logo} alt="Logo"/>
           </a>
           <li className="nav-item nav-pills nav-fill">
             <a className="nav-link" href="#About">
