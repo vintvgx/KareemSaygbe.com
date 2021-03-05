@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -13,21 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +20,413 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body {
+  background-color: white;
+  color: black;
+  
+
+}
+
+a {
+  color: black;
+}
+
+/********************  Global Vars  *****************************/
+
+.num {
+  /* make font size for 01 - 05 universal */
+}
+
+.section {
+  /* make font size for 01 - 05 universal */
+}
+
+
+/********************  NAVIGATION  *****************************/
+#GPS {
+  background-color:black; /*whichever you want*/
+  opacity: 0.9; 
+  filter:(opacity=50);  
+}
+
+
+
+#GPS a {
+  color: white;
+}
+
+#GPS a:hover {
+  color: blue;
+  opacity: 60%;
+}
+.navbar-brand {
+  position: absolute;
+  left: 100px;
+}
+
+/* spaces out the items in the nav bar */
+.nav-item {
+  padding: 0 50px;
+  
+}
+
+nav .btn {
+  position: relative;
+  right: -350px;
+}
+
+
+/******************* LINKS ************************/
+.links {
+  position: relative;
+  position: fixed;
+  top: 570px;
+  width: 90px;  
+}
+
+.fa-linkedin-in ,.fa-github ,.fa-file-word {
+  position: relative;
+  left: 99px;
+  bottom: 30px;
+  
+}
+
+.vertLine {
+  position: relative;
+  position: fixed;
+  left: 1290px;
+  transform: rotate(90deg);
+  width: 200px;
+  background-color: #0275d8;
+  
+}
+
+.vertName {
+  position: relative;
+  position: fixed;
+  left: 1285px;
+  transform: rotate(270deg);
+  bottom:220px;
+  font-size: 12px;
+  font-family: 'Fira Code', monospace;
+  color:#0275d8
+  ;
+}
+
+/******************* Homepage ************************/
+
+.homePage {
+  text-align: center;
+  padding-top: 13%;
+  
+}
+
+.homePage h4 {
+  font-size: 2rem;
+}
+
+.homePage h1 {
+    font-size: 6.9rem;
+    padding-bottom: 1%;
+}
+
+.homePage h2 {
+  font-size: 2rem;
+  padding-bottom: 1%;
+}
+
+
+
+
+/******************* ABOUT ************************/
+
+.About {
+  position: relative;
+  top: 200px;
+  z-index: -1;
+  padding: 10%;
+  background-image: linear-gradient(#ffffff, rgb(116, 116, 116));
+  
+  
+}
+ 
+ .aboutText {
+  position: relative;
+  right: 75px;
+  top: 10px;
+  text-align: right;
+  
+} 
+
+.aboutText h6 {
+  position: relative;
+  color: #0275d8;
+  right: 75px;
+  top: 35px;
+}
+
+.aboutText h6, h4 {
+    font-family: 'Fira Code', monospace;
+}
+
+.circle-img {
+  border-radius: 80%;
+  border: 7px solid #000000;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 100px;
+  z-index:-1;
+}
+
+.circle-img:hover{
+  opacity: 50%;
+}
+/******************* Work ************************/
+
+
+.working {
+  position: relative;
+  top: 200px;
+  color: white;
+  overflow:hidden;
+  background-image: linear-gradient(rgb(116, 116, 116), rgb(0, 0, 0));
+  padding: 15%;
+  z-index: -1;
+}
+
+.working h6 {
+  position: relative;
+  color: #0275d8;
+
+}
+
+.working h4 {
+  position: relative;
+  bottom: 35px;
+  left: 35px;
+
+}
+
+.title {
+  position: relative;
+  left: 30px;
+  font-size: 16px;
+}
+
+.content {
+  position: relative;
+  left: 20px;
+  font-size: 14px;
+}
+.content p {
+  position: relative;
+  left: 35px;
+}
+
+.note {
+  font-size: 10px;
+  margin-top: 20px;;
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 20px;
+  color: red;
+}
+
+.working hr {
+  position: relative;
+  width: 66%;
+  bottom: 65px; 
+  left: 300px;
+}
+
+/******************* Project ************************/
+.proj {
+  position: relative;
+  top: 200px;
+  padding: 40%;
+  height: 500px;
+  color: white;
+  background-color: black;
+  z-index: -1;
+  /* margin-bottom: 100px; */
+}
+
+.proj h6 {
+  color: #0275d8;
+  position: relative;
+  bottom: 350px;
+  right: 280px;
+}
+
+.proj h4 {
+  position: relative;
+  bottom: 383px;
+  right: 240px;
+}
+
+.proj hr {
+  position: relative;
+  width: 275%;
+  bottom: 410px;
+  right: 80px;
+}
+
+.apple-title {
+  position: relative;
+  bottom: 240px;
+  left: 410px;
+  text-align: right;
+  font-size: 20px;
+}
+
+.apple-proj {
+  position: relative;
+  bottom: 350px;
+  right: 300px;
+  width: 200%;
+  height: 300%;
+  box-shadow: 0 5px 5px rgb(83, 83, 83);
+  
+}
+
+.apple-proj:hover {
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+}
+
+.apple-text {
+  position: relative;
+  bottom: 550px;
+  left: 200px;
+  color: #0275d8; 
+  text-align: right;
+  font-family: 'Fira Code', monospace;
+  box-shadow: 0 2px 5px rgb(49, 49, 49);
+  font-size: 13px;
+  padding: 5%;
+  background-color: #111314;
+  width: 500px;
+  height: 100px;
+}
+
+.apple-comp {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 25px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+.port-title {
+  position: relative;
+  bottom: 250px;
+  right: 300px;
+  text-align: left;
+  font-size: 20px;
+  
+}
+
+.port-proj {
+  position: relative;
+  bottom: 350px;
+  left: 120px;
+  width: 200%;
+  height: 300%;
+  box-shadow: 0 5px 5px rgb(83, 83, 83);
+}
+
+.port-text {
+  position: relative;
+  bottom: 550px;
+  right: 300px;
+  color: #0275d8; 
+  text-align: left;
+  font-family: 'Fira Code', monospace;
+  box-shadow: 0 2px 5px rgb(49, 49, 49);
+  font-size: 13px;
+  padding: 5%;
+  background-color: #111314;
+  width: 500px;
+  height: 100px;
+}
+
+.port-comp {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 25px;
+  right: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+.extraSpace {
+  background-color: black;
+  position: relative;
+  bottom: 400px;
+  right: 575px;
+  z-index: -1;
+  width: 1438px;
+  height: 200px;
+   
+}
+/******************* Knowledge ************************/
+
+.ledge {
+  position: relative;
+  top: 290px;
+  background-color: white;
+  overflow:hidden;
+  font-family: 'Fira Mono', monospace;
+  text-align: center;
+  z-index: -1;
+  padding: 10%;
+}
+
+.ledge img {
+  width: 10%;
+  margin: 20px 80px 50px;
+  
+}
+
+.ledge h4 {
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+.ledge h6 {
+  position: relative;
+  right: 110px;
+  top: 20px;
+  color: #0275d8;
+}
+
+.Css, .HTML, .JS {
+  position: relative;
+  left: 120px;
+  top: 30px;
+  
+}
+
+.Java {
+  position: relative;
+  bottom: 100px;
+  right: 400px;
+  bottom: 300px;
+}
+
+.Strap {
+  position: relative;
+  bottom: 110px;
+  right: 40px;
+}
+
+.inProgress {
+  position: relative;
+  color: #0275d8;
+  bottom: 100px;
 }
