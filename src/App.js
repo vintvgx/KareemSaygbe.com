@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import HomePage from './Homepage';
 import Links from './Links';
 import Nav from './Nav';
@@ -7,15 +6,19 @@ import Work from './Work';
 import Knowledge from './Knowledge';
 import Projects from './Projects';
 import './App.css';
-
+import FadeInAnimation from "./FadeAnimation";
 
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <FadeInAnimation delay={2} direction="down">
+        <Nav />
+        </FadeInAnimation>
       <Links />
-      <HomePage />
+      <FadeInAnimation delay={1}>
+          <HomePage />
+          </FadeInAnimation>
       <About />
       <Work />
       <Projects />

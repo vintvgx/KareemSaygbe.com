@@ -5,7 +5,7 @@ import Desk from './pics/deskArea1.jpg';
 
 function Work () {
     return (
-        <div className=" working" id="Work">
+        <div className="working" id="Work">
                 <h6>02.</h6>
                 <h4>Where I've Worked</h4>
                 <hr />
