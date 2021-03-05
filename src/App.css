@@ -38,8 +38,9 @@ a {
 
 /********************  NAVIGATION  *****************************/
 #GPS {
-  background-color:black; /*whichever you want*/
+  background-color:black; 
   opacity: 0.9; 
+  font-family: 'Fira Code', monospace;
   filter:(opacity=50);  
 }
 
@@ -49,15 +50,23 @@ a {
 
 #GPS a {
   color: white;
+  font-size: 14px;
+  
+}
+
+.one {
+  position: relative;
+  top:
 }
 
 #GPS a:hover {
-  color: blue;
+  color: #0275d8;
   opacity: 60%;
 }
 .navbar-brand {
   position: absolute;
-  left: 100px;
+  left: 50px;
+  bottom: 5px;
 }
 
 /* spaces out the items in the nav bar */
@@ -68,7 +77,7 @@ a {
 
 nav .btn {
   position: relative;
-  right: -350px;
+  right: -525px;
 }
 
 
@@ -78,6 +87,11 @@ nav .btn {
   position: fixed;
   top: 570px;
   width: 90px;  
+}
+
+.links a {
+  color: #0275d8;
+  
 }
 
 .fa-linkedin-in ,.fa-github ,.fa-file-word {

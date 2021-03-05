@@ -9,7 +9,7 @@ function homePage () {
             <h2>Web Developer. Creator. Programmer.</h2>
             {/* <p>I free lance in wed development and web design,</p>
             <p>I story tell with my camera through photography and video-making and I program applications in various languages. </p> */}
-            <button className="btn btn-primary">GET IN TOUCH</button>
+            <button className="btn  btn-outline-primary">GET IN TOUCH</button>
         </div>
     )
 }
