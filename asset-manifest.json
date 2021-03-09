@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/KareemSaygbe.com/static/css/main.bd59d7c9.chunk.css",
-    "main.js": "/KareemSaygbe.com/static/js/main.5acb111e.chunk.js",
-    "main.js.map": "/KareemSaygbe.com/static/js/main.5acb111e.chunk.js.map",
+    "main.css": "/KareemSaygbe.com/static/css/main.610f7cef.chunk.css",
+    "main.js": "/KareemSaygbe.com/static/js/main.f2093337.chunk.js",
+    "main.js.map": "/KareemSaygbe.com/static/js/main.f2093337.chunk.js.map",
     "runtime-main.js": "/KareemSaygbe.com/static/js/runtime-main.0088fb4d.js",
     "runtime-main.js.map": "/KareemSaygbe.com/static/js/runtime-main.0088fb4d.js.map",
     "static/css/2.658248ec.chunk.css": "/KareemSaygbe.com/static/css/2.658248ec.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.78821510.chunk.js.map": "/KareemSaygbe.com/static/js/2.78821510.chunk.js.map",
     "index.html": "/KareemSaygbe.com/index.html",
     "static/css/2.658248ec.chunk.css.map": "/KareemSaygbe.com/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.bd59d7c9.chunk.css.map": "/KareemSaygbe.com/static/css/main.bd59d7c9.chunk.css.map",
+    "static/css/main.610f7cef.chunk.css.map": "/KareemSaygbe.com/static/css/main.610f7cef.chunk.css.map",
     "static/js/2.78821510.chunk.js.LICENSE.txt": "/KareemSaygbe.com/static/js/2.78821510.chunk.js.LICENSE.txt",
     "static/media/Adobe.c981309b.png": "/KareemSaygbe.com/static/media/Adobe.c981309b.png",
     "static/media/CSS.585ef422.png": "/KareemSaygbe.com/static/media/CSS.585ef422.png",
@@ -22,13 +22,14 @@
     "static/media/comptia.ccf2428f.png": "/KareemSaygbe.com/static/media/comptia.ccf2428f.png",
     "static/media/deskArea1.24bd3778.jpg": "/KareemSaygbe.com/static/media/deskArea1.24bd3778.jpg",
     "static/media/imageSelf.14ec1946.jpg": "/KareemSaygbe.com/static/media/imageSelf.14ec1946.jpg",
-    "static/media/java.5d5cffa0.png": "/KareemSaygbe.com/static/media/java.5d5cffa0.png"
+    "static/media/java.5d5cffa0.png": "/KareemSaygbe.com/static/media/java.5d5cffa0.png",
+    "static/media/resume.16632992.pdf": "/KareemSaygbe.com/static/media/resume.16632992.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.0088fb4d.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.78821510.chunk.js",
-    "static/css/main.bd59d7c9.chunk.css",
-    "static/js/main.5acb111e.chunk.js"
+    "static/css/main.610f7cef.chunk.css",
+    "static/js/main.f2093337.chunk.js"
   ]
 }
