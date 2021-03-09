@@ -3,7 +3,7 @@ import Apple from './pics/Iphone13Launch.png';
 import Portfolio from './pics/Portfolio.png';
 
 
-function Project () {
+function Projects () {
     return (
         <div className="proj" id="Projects">
             <h6>03.</h6>
@@ -33,4 +33,4 @@ function Project () {
     );
 }
 
-export default Project;
+export default Projects;

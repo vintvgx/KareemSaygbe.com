@@ -3,7 +3,7 @@ import React from 'react';
 
 function homePage () {
     return (
-        <div className="homePage">
+        <div className="container homePage" id="Home">
             <h4 class="fadeup-enter-done">Hi, my name is</h4>
             <h1 class="bigHeading" >Kareem Saygbe.</h1>
             <h2>Web Developer. Creator. Programmer.</h2>

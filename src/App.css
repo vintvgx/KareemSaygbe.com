@@ -54,39 +54,31 @@ a {
   
 }
 
-.one {
-  position: relative;
-  top:
-}
-
 #GPS a:hover {
   color: #0275d8;
   opacity: 60%;
 }
 .navbar-brand {
   position: absolute;
-  left: 50px;
+  left: 100px;
   bottom: 5px;
 }
 
-/* spaces out the items in the nav bar */
+ /* spaces out the items in the nav bar */
 .nav-item {
-  padding: 0 50px;
+  padding: 0 15px;
   
-}
+} 
 
-nav .btn {
+/* nav .btn {
   position: relative;
   right: -525px;
-}
+} */
 
 
 /******************* LINKS ************************/
 .links {
-  position: relative;
   position: fixed;
-  top: 570px;
-  width: 90px;  
 }
 
 .links a {
@@ -94,20 +86,28 @@ nav .btn {
   
 }
 
+.hLine {
+  position: relative;
+  top: 420px;
+  right: 60px;
+  width: 120px;
+}
+
 .fa-linkedin-in ,.fa-github ,.fa-file-word {
   position: relative;
-  left: 99px;
-  bottom: 30px;
+  left: 80px;
+  top: 390px;
+  z-index: -1;
   
 }
 
 .vertLine {
-  position: relative;
-  position: fixed;
-  left: 1290px;
+  position: absolute;
+  left: 100%;
+  top: 700px;
   transform: rotate(90deg);
-  width: 200px;
   background-color: #0275d8;
+  width: 200px;
   
 }
 
@@ -155,17 +155,13 @@ nav .btn {
   top: 200px;
   z-index: -1;
   padding: 10%;
-  background-image: linear-gradient(#ffffff, rgb(116, 116, 116));
-  
-  
+  background-color: white;
+   /* background-image: linear-gradient(rgb(116, 116, 116), rgb(0, 0, 0)); */
 }
  
  .aboutText {
-  position: relative;
-  right: 75px;
-  top: 10px;
-  text-align: right;
   
+  text-align: right;
 } 
 
 .aboutText h6 {
@@ -185,8 +181,8 @@ nav .btn {
   width: 400px;
   height: 400px;
   position: relative;
-  left: 100px;
-  z-index:-1;
+  
+  
 }
 
 .circle-img:hover{
@@ -200,7 +196,8 @@ nav .btn {
   top: 200px;
   color: white;
   overflow:hidden;
-  background-image: linear-gradient(rgb(116, 116, 116), rgb(0, 0, 0));
+  /* background-image: linear-gradient(rgb(116, 116, 116), rgb(0, 0, 0)); */
+  background-color: #000000;
   padding: 15%;
   z-index: -1;
 }
@@ -238,7 +235,7 @@ nav .btn {
   font-size: 10px;
   margin-top: 20px;;
   text-align: center;
-  border: 1px solid #000000;
+  border: 1px solid white;
   padding: 20px;
   color: red;
 }
@@ -322,19 +319,9 @@ nav .btn {
 .apple-comp {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
-  top: 25px;
-  left: 10px;
+  top: 10px;
   font-size: 12px;
   color: white;
-}
-
-.port-title {
-  position: relative;
-  bottom: 250px;
-  right: 300px;
-  text-align: left;
-  font-size: 20px;
-  
 }
 
 .port-proj {
@@ -346,20 +333,7 @@ nav .btn {
   box-shadow: 0 5px 5px rgb(83, 83, 83);
 }
 
-.port-text {
-  position: relative;
-  bottom: 550px;
-  right: 300px;
-  color: #0275d8; 
-  text-align: left;
-  font-family: 'Fira Code', monospace;
-  box-shadow: 0 2px 5px rgb(49, 49, 49);
-  font-size: 13px;
-  padding: 5%;
-  background-color: #111314;
-  width: 500px;
-  height: 100px;
-}
+
 
 .port-comp {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -380,6 +354,131 @@ nav .btn {
   height: 200px;
    
 }
+
+/******************* Project TWO ************************/
+
+.project {
+  position: relative;
+  top: 200px;
+  overflow:hidden;
+  height: 1200px;
+  background-color: black;
+  z-index: -1;
+}
+
+.container {
+  padding-top: 5%;
+}
+
+.project h6 {
+  color: #0275d8;
+  position: relative;
+  left: 15%;
+  top: 33px;
+  
+  
+  
+}
+
+.project h4 {
+  position: relative;
+  left: 140px;
+  color: white;
+  padding-left: 10%;
+
+}
+
+.project hr {
+  position: relative;
+  width: 53%;
+  left: 30%;
+  bottom: 30px;
+  color: white;
+  
+}
+
+.apple-image {
+  position: relative;
+  left: 200px;
+  width: 125%
+}
+
+.port-image {
+  position: relative;
+  left: 530px;
+  width: 125%
+}
+
+.apple-text1 {
+  
+  position: relative;
+  top: 100px;
+  left: 200px;
+  color: #0275d8; 
+  text-align: right;
+  font-family: 'Fira Code', monospace;
+  /* box-shadow: 0 2px 5px rgb(49, 49, 49); */
+  font-size: 13px;
+  padding: 1%;
+  /* background-color: #111314; */
+  height: 20%;
+
+}
+
+.border {
+  
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+  background-color: #111314;
+  padding: 3%;
+}
+
+.apple-title1 {
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.port-title {
+  position: relative;
+  bottom: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+.apple-comp2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  bottom: 120px;
+  left: 970px;
+  font-size: 12px;
+  color: white;
+}
+
+.project button {
+  position: relative;
+  top: 35px;
+}
+
+.port-text {
+  position: relative;
+  right: 355px;
+  color: #0275d8; 
+  text-align: left;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+  padding: 5%;
+  width: 500px;
+  height: 100px;
+}
+
+
 /******************* Knowledge ************************/
 
 .ledge {

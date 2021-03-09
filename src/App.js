@@ -5,6 +5,7 @@ import About from './About';
 import Work from './Work';
 import Knowledge from './Knowledge';
 import Projects from './Projects';
+import Project from './Project';
 import './App.css';
 import FadeInAnimation from "./FadeAnimation";
 
@@ -21,7 +22,7 @@ function App() {
           </FadeInAnimation>
       <About />
       <Work />
-      <Projects />
+      <Project />
       <Knowledge />
       
     </div>

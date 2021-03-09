@@ -34,7 +34,7 @@ function Work () {
                         <p> Serve in an mens house as a recovery specialist for those who suffer from addiction and mental health issues</p>
                     </div>
                 </div>
-                    <p className="note">* As you can see through my work history, I have been dedicated to youth development in my underserved community while in school. I could have taken the route of * focusing on working an internship instead or tried my hardest to get into an entry level job once graduating with my Associates, but I felt more accomplished with the work I was doing in my city. I just ask that you don't undervalue me due to my lack of experience.</p>
+                    <p className="note">As you can see through my work history, I have been dedicated to youth development in my underserved community while in school. I could have taken the route of focusing on working an internship instead or tried my hardest to get into an entry level job once graduating with my Associates, but I felt more accomplished with the work I was doing in my city. I just ask that you don't undervalue me due to my lack of experience.</p>
                 
         </div>
     )

@@ -1,30 +1,38 @@
 import React from 'react';
 import Logo from './pics/K192.png';
+import Resume from './files/resume.pdf';
 
 function Nav () {
     return (
-    <nav className="navbar sticky-top navbar-dark navar-expand-lg transparent" id="GPS">
-      <div class="container barNav">
-        <ul className="nav nav-pills ">
-          <a className="navbar-brand" href="#S2">
+    <nav className="navbar sticky-top navbar-dark navbar-expand-lg navbar-expand-sm transparent justify-content-between" id="GPS">
+     <a className="navbar-brand" href="#Home">
           <img className="logo" src={Logo} alt="Logo"/>
           </a>
-          <li className="nav-item nav-pills nav-fill">
+
+      <div class="container-fluid collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ml-auto">
+         
+          <li className="nav-item">
             <a className="nav-link" href="#About">
               01. About
             </a>
             </li>
-            <li className="nav-item nav-pills nav-fill">
+            <li className="nav-item">
             <a className="nav-link" href="#Work">
                02. Work
             </a>
             </li>
-            <li className="nav-item nav-pills nav-fill">
-            <a className="nav-link" href="#Projects">
+            <li className="nav-item">
+            <a className="nav-link" href="#Project">
               03. Projects
             </a>
             </li>
-            <button className="btn  btn-outline-secondary">RESUME</button>
+            <li>
+                <a href={Resume} download>
+                  <button className="btn  btn-outline-secondary  my-2 my-sm-0">RESUME</button>
+                  </a> 
+               </li>
+               
         </ul>
         </div>
      </nav>
