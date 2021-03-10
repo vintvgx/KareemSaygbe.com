@@ -128,6 +128,8 @@ a {
 .homePage {
   text-align: center;
   padding-top: 13%;
+  position: relative;
+  top: 10%;
   
 }
 
@@ -357,6 +359,10 @@ a {
 
 /******************* Project TWO ************************/
 
+#project {
+  background-color: #000000;
+}
+
 .project {
   position: relative;
   top: 200px;
@@ -366,23 +372,18 @@ a {
   z-index: -1;
 }
 
-.container {
-  padding-top: 5%;
-}
+
 
 .project h6 {
   color: #0275d8;
   position: relative;
-  left: 15%;
+  left: 10%;
   top: 33px;
-  
-  
-  
 }
 
 .project h4 {
   position: relative;
-  left: 140px;
+  left: 45px;
   color: white;
   padding-left: 10%;
 
@@ -397,39 +398,22 @@ a {
   
 }
 
+.project .row {
+ padding: 80px 0px 80px 0px;
+}
 .apple-image {
   position: relative;
-  left: 200px;
-  width: 125%
-}
-
-.port-image {
-  position: relative;
-  left: 530px;
   width: 125%
 }
 
 .apple-text1 {
-  
   position: relative;
   top: 100px;
-  left: 200px;
   color: #0275d8; 
   text-align: right;
   font-family: 'Fira Code', monospace;
-  /* box-shadow: 0 2px 5px rgb(49, 49, 49); */
   font-size: 13px;
   padding: 1%;
-  /* background-color: #111314; */
-  height: 20%;
-
-}
-
-.border {
-  
-  box-shadow: 0 2px 5px rgb(0, 0, 0);
-  background-color: #111314;
-  padding: 3%;
 }
 
 .apple-title1 {
@@ -441,6 +425,25 @@ a {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+.border {
+  
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+  background-color: #111314;
+  padding: 3%;
+}
+
+.port-text {
+  position: relative;
+  color: #0275d8; 
+  text-align: left;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+  padding: 5%;
+  z-index: 1;
+}
+
+
 .port-title {
   position: relative;
   bottom: 20px;
@@ -450,40 +453,27 @@ a {
   
 }
 
-
-
-.apple-comp2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.port-image {
   position: relative;
-  bottom: 120px;
-  left: 970px;
-  font-size: 12px;
-  color: white;
+  right: 100px;
+  width: 125%;
+  z-index: -2;
 }
 
 .project button {
   position: relative;
   top: 35px;
+  z-index: 1;
 }
 
-.port-text {
-  position: relative;
-  right: 355px;
-  color: #0275d8; 
-  text-align: left;
-  font-family: 'Fira Code', monospace;
-  font-size: 13px;
-  padding: 5%;
-  width: 500px;
-  height: 100px;
-}
+
 
 
 /******************* Knowledge ************************/
 
-.ledge {
+.know {
   position: relative;
-  top: 290px;
+  top: 210px;
   background-color: white;
   overflow:hidden;
   font-family: 'Fira Mono', monospace;
@@ -492,47 +482,26 @@ a {
   padding: 10%;
 }
 
-.ledge img {
-  width: 10%;
-  margin: 20px 80px 50px;
-  
+.know img {
+  width: 18%;
+  padding: 10px 60px 30px 60px; 
+
 }
 
-.ledge h4 {
-  font-size: 30px;
+.know h4 {
+  font-size: 40px;
   position: relative;
-  bottom: 20px;
+  bottom: 50px;
 }
 
-.ledge h6 {
+.know h6 {
   position: relative;
-  right: 110px;
-  top: 20px;
+  font-size: 20px;
+  right: 135px;
   color: #0275d8;
-}
-
-.Css, .HTML, .JS {
-  position: relative;
-  left: 120px;
-  top: 30px;
-  
-}
-
-.Java {
-  position: relative;
-  bottom: 100px;
-  right: 400px;
-  bottom: 300px;
-}
-
-.Strap {
-  position: relative;
-  bottom: 110px;
-  right: 40px;
 }
 
 .inProgress {
-  position: relative;
   color: #0275d8;
-  bottom: 100px;
+  padding-top: 10%;
 }
